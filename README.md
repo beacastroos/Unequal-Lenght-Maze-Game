@@ -6,7 +6,7 @@ Temos scripts de python que criam, dão dicas e solucionam níveis pré-definido
 ## Bibliotecas necessárias:
 ### Para o jogo:
 - ```pip install -r requirements.txt ```
-- 
+
 ## Como abrir o jogo
 Abrir a pasta dos scripts e correr o seguinte comando:
 - ```python main.py ```
