@@ -6,9 +6,7 @@ Temos scripts de python que criam, dão dicas e solucionam níveis pré-definido
 ## Bibliotecas necessárias:
 ### Para o jogo:
 - ```pip install -r requirements.txt ```
-### Para os testes (opcionais):
-- ```pip install -r optionals.txt ```
-
+- 
 ## Como abrir o jogo
 Abrir a pasta dos scripts e correr o seguinte comando:
 - ```python main.py ```
@@ -32,11 +30,3 @@ O jogo irá abrir-se automaticamente.
 - Depois de ter as paredes desejadas selecionadas, clicar 'Done' ou premir a tecla 'Enter'.
 - Jogar usando as instruções dadas para níveis pré-selecionados.
 	
-
-# Como correr os testes
-Abrir a pasta dos scripts e correr o seguinte comando:
-- ```python tests.py ```
-
-Os gráficos das métricas tempo, memória e operações irão abrir-se sozinhos.
-
-Os resultados dos testes estão disponíveis na pasta 'Results', assim como os Mazes testados.
