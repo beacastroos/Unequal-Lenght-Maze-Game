@@ -5,6 +5,7 @@ Find a path from the bottom-left corner to the top-right corner, passing through
 We provide Python scripts that create, give hints, and solve predefined levels of the game, as well as an option to create and solve your own maze.
 
 Project for the Elements of Artificial Intelligence and Data Science course. 
+
 Project grade: 20/20.
 
 ## Required Libraries:
