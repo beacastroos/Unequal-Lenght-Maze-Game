@@ -1,32 +1,38 @@
 # Unequal Lenght Maze Game
-Encontra um caminho desde o canto inferior esquerdo até ao canto superior direito, passando por cada quadrado branco exatamente uma vez. O caminho deve alternar segmentos horizontais e verticais, e dois segmentos consecutivos não podem ter o mesmo comprimento.
 
-Temos scripts de python que criam, dão dicas e solucionam níveis pré-definidos do jogo, além da possibilidade de criar o seu próprio Maze e resolver.
+Find a path from the bottom-left corner to the top-right corner, passing through each white square exactly once. The path must alternate between horizontal and vertical segments, and two consecutive segments cannot have the same length.
 
-## Bibliotecas necessárias:
-### Para o jogo:
+We provide Python scripts that create, give hints, and solve predefined levels of the game, as well as an option to create and solve your own maze.
+
+Project for the Elements of Artificial Intelligence and Data Science course. 
+Project grade: 20/20.
+
+## Required Libraries:
+### For the game:
 - ```pip install -r requirements.txt ```
 
-## Como abrir o jogo
-Abrir a pasta dos scripts e correr o seguinte comando:
+## How to Start the Game:
+
+Open the folder containing the scripts and run the following command:
+
 - ```python main.py ```
-  
-O jogo irá abrir-se automaticamente.
 
-## Como jogar:
-### Instruções níveis pré-selecionados:
-- Depois de abrir o jogo, selecionar um nível. 
-- Para jogar, pode andar usando as teclas de direção do teclado ou clicando no quadrado que deseja com o botão esquerdo do rato. 
-- Para pedir uma dica, pode usar a tecla 'H' do teclado, ou carregar no respetivo botão. 
-- Para pedir a um dos algoritmos para resolver, pode clicar no botão respetivo com o botão esquerdo do rato, ou pressionar a tecla de atalho de teclado indicada entre parênteses depois do nome do algoritmo.
-- Se ganhar, irá aparecer no ecrã 'You Won!' e retornará ao menu principal.
-- Se não houver solução para o puzzle ou o escolheu um caminho impossível de continuar, irá aparecer no ecrã 'Impossible Game!' e retornará ao ecrã principal.
+The game will launch automatically.
 
-### Instruções 'Build your own maze':
-- Escolher no menu principal a opção 'Build your own maze'.
-- Escolher as dimenções do Maze, introduzindo dois números separados por um espaço remetentes ao número de linhas (rows) e colunas (cols), depois premir a tecla Enter.
-- Escolher onde colocar os obstáculos/paredes, carregando com o botão esquerdo do rato no quadrado desejado.
-- Para retirar uma parede, carregar com o botão esquerdo do rato na parede que deseja retirar.
-- Depois de ter as paredes desejadas selecionadas, clicar 'Done' ou premir a tecla 'Enter'.
-- Jogar usando as instruções dadas para níveis pré-selecionados.
+## How to Play:
+### Instructions for Pre-Selected Levels:
+- After opening the game, select a level.
+- To play, you can move using the arrow keys or by clicking the desired square with the left mouse button.
+- To request a hint, you can press the 'H' key on your keyboard or click the corresponding button.
+- To let one of the algorithms solve the maze, click the respective button or press the keyboard shortcut indicated in parentheses next to the algorithm's name.
+- If you win, a "You Won!" message will appear, and you will return to the main menu.
+- If there is no solution or you have chosen an impossible path, an "Impossible Game!" message will appear, and you'll be redirected back to the main screen.
+
+### Instructions for 'Build Your Own Maze':
+- Select 'Build your own maze' from the main menu.
+- Choose the dimensions of the maze by entering two numbers separated by a space, representing the number of rows and columns, then press Enter.
+- Select where to place obstacles/walls by clicking the desired square with the left mouse button.
+- To remove a wall, click the wall with the left mouse button.
+- Once you have selected the desired walls, click 'Done' or press Enter.
+- Play using the instructions given for pre-selected levels.
 	
